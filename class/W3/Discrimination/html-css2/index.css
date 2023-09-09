@@ -1,0 +1,362 @@
+@font-face {
+    font-family: 'iransans';
+    src: url('3217104.ttf') format('truetype');
+    box-sizing: border-box;
+}
+
+body,
+html {
+    direction: rtl;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+.top {
+    background-color: #F1F2F7;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+}
+
+/* .left-top {
+   
+} */
+
+.visit-site {
+    color: #0049B7;
+    text-align: right;
+    font-family: 'iransans';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    width: 147px;
+    height: 40px;
+    border-radius: 8px;
+    background: #FFF;
+    border: #F1F2F7;
+    text-align: center;
+}
+
+.right-top {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 3rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.choose {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.menu {
+    color: #505050;
+    text-align: right;
+    font-family: 'iransans';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.side-log {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo::before {
+    content: url(image\ \(2\).svg);
+    /* padding: 20px; */
+}
+
+.name-site {
+    color: #505050;
+    text-align: right;
+    font-family: 'iransans';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+.site {
+    color: #505050;
+    text-align: right;
+    font-family: 'iransans';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    background-color: #F1F2F7;
+    height: 350px;
+    padding-top: 50px;
+    gap: 10rem;
+}
+
+img {
+    height: 350px;
+    width: 350;
+}
+
+.right-bar-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.topic {
+
+    text-align: right;
+    font-family: 'iransans';
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 50px;
+}
+
+.black-color {
+    color: #505050;
+}
+
+.blue-color {
+    color: #0049B7;
+}
+
+.description-topic {
+    color: #505050;
+    text-align: right;
+    font-family: 'iransans';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    width: 442px;
+    margin-bottom: 50px;
+}
+
+.bottom-topic {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 31px;
+}
+
+.visit-web {
+    color: #0049B7;
+    text-align: right;
+    font-family: 'iransans';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.view-generally-tariff {
+    color: #FFF;
+    text-align: right;
+    font-family: 'iransans';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    width: 144px;
+    height: 40px;
+    border-radius: 8px;
+    background: #0049B7;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.why {
+
+    text-align: right;
+    font-family: 'iransans';
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin-top: 72px;
+    width: 50%;
+}
+
+.black-why {
+    color: #505050;
+}
+
+.blue-why {
+    color: #0049B7;
+}
+
+.middle {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+
+}
+
+.right-middle {
+    color: #505050;
+    text-align: right;
+    font-family: 'iransans';
+    font-size: 16px;
+    font-style: normal;
+    width: 596px;
+    line-height: 40px;
+}
+
+.left-middle {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 38px;
+}
+
+.seem1 {
+    width: 262px;
+    height: 209px;
+    border-radius: 24px;
+    border: 1px solid #DDD;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.seem {
+    width: 262px;
+    height: 209px;
+    border-radius: 24px;
+    background: rgba(218, 218, 218, 0.24);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.top-div-one,
+.top-div-two {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #505050;
+    text-align: right;
+    font-family: 'iransans';
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    margin-bottom: 40px;
+}
+
+.top-div-one::after {
+    content: url(image\(3\).svg);
+}
+
+.top-div-two::after {
+    content: url(image\(4\).svg)
+}
+
+.middle-div {
+    color: #505050;
+    text-align: right;
+    font-family: 'iransans';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+.bottom-div {
+    color: rgba(80, 80, 80, 0.70);
+    text-align: right;
+    font-family: 'iransans';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+
+}
+
+.bottom-middle {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 38px;
+    height: 300px;
+}
+
+.top-div {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    margin-bottom: 40px;
+}
+
+.bold-top-div {
+    color: #505050;
+    text-align: right;
+    font-family: 'iransans';
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+.dim-color-top-color {
+    color: #CECECE;
+    text-align: right;
+    font-family: 'iransans';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+}
