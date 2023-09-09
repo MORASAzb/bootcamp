@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,500;1,9..40,500&family=Noto+Sans+JP&display=swap');
+
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+.div-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    min-height: 100vh;
+}
+
+.div-main {
+    width: 915px;
+    height: 100%;
+}
+
+.div-img {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    flex-shrink: 0;
+    width: 100%;
+    height: 100%;
+    grid-column: span 1;
+    padding-left: 0;
+}
+
+.head {
+    color: rgba(30, 14, 98, 1);
+    font-family: 'Dm sans';
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 52px;
+    width: 570px;
+    height: 104px;
+    margin: 117px 715px 0px 115px;
+    letter-spacing: 1.5px;
+
+}
+
+.discribe-head {
+    color: rgba(21, 20, 57, 0.4);
+    font-family: 'DM Sans';
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    height: 96px;
+    width: 555px;
+    margin-left: 115px;
+    margin-top: 30px;
+
+}
+
+.middle {
+    position: relative;
+    left: 120px;
+    margin-top: 48px;
+    border-radius: 100px;
+    border: 1px solid rgba(233, 58, 125, 1);
+    background-color: rgba(233, 58, 125, 1);
+}
+
+.text-button {
+    margin: 12px 32px;
+    color: white;
+}
+
+.bottom {
+    display: flex;
+    gap: 100px;
+    position: relative;
+    top: 60px;
+    left: 5px;
+    justify-content: center;
+    align-items: center;
+    margin: 120px 290px 120 115px;
+
+
+}
+
+.title-bottom {
+    font-family: DM Sans;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    color: rgba(30, 14, 98, 1);
+}
+
+.icon-massage {
+    padding: 10px;
+}
+
+.discribe-bottom {
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    color: rgba(21, 20, 57, 0.4);
+    margin-top: 25px;
+    height: 267px;
+    width: 280px;
+    gap: 2.5rem;
+
+
+}
+
+.icon-hc,
+.icon-massage {
+    /*font-size: 250px;*/
+    width: 40px;
+    height: 38px;
+    color: #aaaaaa;
+    margin-bottom: 50px;
+}
+.div-img{
+    height: 100vh;
+}
