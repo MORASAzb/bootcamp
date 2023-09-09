@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,200;9..40,300&family=Noto+Sans+JP&display=swap')
+
+*{
+    box-sizing: border-box;
+}
+html,body{
+    font-family: 'DM Sans', sans-serif ;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.div-main{
+    width:960px;
+    margin: 0 auto;
+}
+.head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    font-weight:700;
+    font-size: 32px;
+    overflow-x: hidden;
+    text-align: center;
+
+    color: #1E0E62;
+   /* font-family: 'DM Sans', sans-serif ;
+    font-family: 'Noto Sans JP', sans-serif;*/
+
+}
+    
+.about-title{
+    text-align: center;
+    font-size: 22px;
+    font-weight:500;
+    color: #A1A1B0;
+    width: 100%;
+    line-height: 2rem;
+    
+
+}
+.picture{
+    display: flex;
+justify-content: center;
+gap: 1rem;
+
+}
+.picture1,.picture2{
+    border: 0.5px solid #A1A1B0;
+    width: 370px;
+    height: 488px;
+    margin: 10px;
+    border-radius:10px ;
+    display: block;
+}
+.look1,.look2{
+    align-items: center;
+margin-bottom: 20px;
+height: 250px;
+width: 370px;
+}
+.p-title{
+    text-transform: uppercase;
+    text-align: center;
+    color: #1E0E62;
+    /*font-family: 'DM Sans', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;*/
+    font-weight:600;
+    font-size: 20px;
+    
+}
+.p-description{
+    color: #A1A1B0;
+    /*font-family: 'DM Sans', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;*/
+    width: 245px;
+    height : 104px;
+    margin-left: 58px;
+    padding-left: 10px;
+    text-align:center ;
+ 
+}

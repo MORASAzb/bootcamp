@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,200;9..40,300&family=Noto+Sans+JP&display=swap');
+
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+.main-div{
+    background-color:RGB(239,239,239);
+    height: 900px;
+
+}
+.titel {
+ font-family:'DM Sans', sans-serif ;
+ font-family: 'Noto Sans JP', sans-serif;
+ margin-left: 20px;
+ margin-top: 10px;
+ text-transform:uppercase ;
+ color: RGB(171,137,103);
+ font-weight: 600;
+ padding: top 10px; ;
+
+}
+.coffe-masters{
+    margin-bottom: 10px;
+}
+.first-p::before{
+    content:url(coffee_masters_logo.png) ;
+} 
+.first-p{
+    text-align: center;
+    background-color: RGB(65,35,21);
+    color: RGB(224,192,160);
+    padding: 10px;
+    font-family:'DM Sans', sans-serif ;
+    font-family: 'Noto Sans JP', sans-serif;
+
+}  
+.item{
+    background-color: RGB(238,225,213);
+    width: 464px;
+    box-shadow: 1px 1px 10px -1px grey ;
+    height: 280px;
+    margin-top: 55px;
+    margin-left:270px;
+    padding-top: 1px;
+
+
+} 
+.hr{
+   background-color:RGB(222,185,147) ;
+   padding: 1px;
+   width: 420px;
+   margin-left: 20px;
+   margin-right: 25px;
+
+}
+.cfoem{
+ padding-left: 45px;
+ position:relative;
+top:-16px;
+padding-top: 8px;
+color: RGB(72,79,59);
+font-weight: 600;
+}
+.num{
+   padding-left: 15px;
+   font-size: 12px;
+   font-weight: lighter;
+   position:relative;
+   top:9px;
+   color: RGB(72,79,59);
+  
+}
+.incloud{
+    margin-left: 55px;
+    font-family:'DM Sans', sans-serif ;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size : 12px;
+    position: relative;
+    color: RGB(171,137,103);
+}
+#incloud1{top: -29px;}
+#incloud2{top:-28px;}
+#incloud3{top:-23px ;}
+#incloud4{top: -33px;}
+
+.price1,.price2,.price3{
+    position: relative;
+    text-indent: 260px;
+    font-size: 15px;
+    margin-left:125px;
+    margin-right: 50px;
+    color: RGB(72,79,59);
+}
+.price1{top: -30px;}
+.price2{top:-32px;}
+.price3{top:-34px;}
+
+
+.name , .payment {
+    margin-left: 35px;
+    background-color: RGB(237,224,212);
+    box-shadow: 1px 1px 10px -1px grey ;
+    width: 490px;
+    position: relative;
+    padding-top: 1px;
+   
+}
+.name{
+   height: 122px;
+   left: 755px;
+   top:-280px;
+
+}
+.payment{
+    height: 200px;
+    left: 755px;
+    top:-232px;
+}
+.for-order{
+color: RGB(171,137,103);
+margin-left: 60px;
+position: relative;
+top:13px;
+padding: 0,1px;
+width: 99px;
+background-color: RGB(237,224,212);
+
+
+}
+.inside-mark{
+    margin: 4px 15px 4px 20px; 
+    border: 1px solid rgb(127,79,36);
+    border-radius: 30px;
+    
+   font-family:'DM Sans', sans-serif  ;
+   font-family: 'Noto Sans JP', sans-serif;
+   font-size: 15px;
+   font-weight: 600;
+   color:RGB(72,79,59) ;
+   background-color: RGB(237,224,212);
+}
+#inside-mark1{
+    padding: 12px 230px 12px 40px;
+}
+#inside-mark2{
+    padding: 12px 225px 12px 48px;
+}
+#inside-mark3{
+    padding: 12px 2px 12px 48px;
+}
+#card-number,#ccv-number{
+    padding-left:7px;
+}
+
+.total{
+   
+    position: absolute;
+    left:600px;
+    top: 650px;
+}
+.subtotal{
+    font-family: 'DM Sans', sans-serif ;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 400;
+    color:RGB(72,79,59) ;
+    padding-top: 6px,5px;
+
+}
+.pay{
+    font-family: 'DM Sans', sans-serif ;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 400;
+    color:RGB(72,79,59) ;
+    position: relative;
+    left: 280px;;
+ }
+ #pay1{top: -23px;}
+ #pay2{top: -23px;px ;}
+ .total-end{
+   font-family: 'DM Sans', sans-serif ;
+   font-family: 'Noto Sans JP', sans-serif;
+    font-weight: bolder;
+    color:RGB(72,79,59) ;
+    margin-top: 2px;
+    position: relative;
+
+ }
+.pay3{
+    font-family: 'DM Sans', sans-serif ;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: bolder;
+    color:RGB(72,79,59) ;
+    position: relative;
+    left:278px ;
+    top:-23px ;
+}
+.place-order{
+    position: absolute;
+    left:305px;
+    top: 810px; 
+    border: 1px solid RGB(222,185,147);
+    border-radius: 30px;
+    background-color: RGB(222,185,147);
+    color:RGB(72,79,59) ;
+   font-family: 'DM Sans', sans-serif ;
+   font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 600;
+    padding: 5px 430px;
+}
